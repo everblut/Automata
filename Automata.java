@@ -1,4 +1,4 @@
-package net.everblut.Automata;
+
 import javax.swing.*;
 
 public class Automata extends JFrame{

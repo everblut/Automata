@@ -1,4 +1,4 @@
-package net.everblut.Automata;
+
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -64,7 +64,6 @@ public class Cuadro extends JFrame{
 	    	setVisible(true);
 	 }
 	 public static void main(String[] args){
-		 new Cuadro().mostrar();
-	 
+		 new Cuadro().mostrar();	 
 	 }
 }

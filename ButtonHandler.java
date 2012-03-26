@@ -1,4 +1,4 @@
-package net.everblut.Automata;
+
 
 import java.awt.event.*;
 import javax.swing.JCheckBox;
