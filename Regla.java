@@ -1,5 +1,3 @@
-
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -19,9 +17,9 @@ public class Regla {
     
     
     public static final Boolean[] regla30 = {false,false,false,true,true,true,true,false};
-    public static final Boolean[] regla60 = {false,false,true,true,true,true,false,false};
     public static final Boolean[] regla90 = {false,true,false,true,true,false,true,false};
     public static final Boolean[] regla110 = {false,true,true,false,true,true,true,false};
+    public static final Boolean[] regla150 = {true,false,false,true,false,true,true,false};
     public static final Boolean[] regla184 = {true,false,true,true,true,false,false,false};
     
     
@@ -47,9 +45,9 @@ public class Regla {
     	Boolean[] regla;
     	switch(numeroRegla){
     	case 30: regla = regla30; break;
-    	case 60: regla = regla60; break;
     	case 90: regla = regla90; break;
     	case 110: regla = regla110; break;
+    	case 150: regla = regla150; break;
     	case 184: regla = regla184; break;	
     	default: regla = regla30;
     	}
